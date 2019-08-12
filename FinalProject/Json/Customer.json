@@ -1,0 +1,470 @@
+{
+  "Customers": [
+    {
+      "CustomerId": 1,
+      "CustomerName": "Vrushank Patel",
+      "CustLat": 43.467737, 
+      "CustLng": -79.692862,
+      "CustAddress": "1229 Marlborough Ct, Oakville, ON L6H 3B6",
+      "CustContact": "Phone",
+      "CustPhone": "(905)-555-1234",
+      "CustEmail": "vrushank@gmail.com",
+      "Invoices": [
+        {
+          "invNum": 100,
+          "invDate": "2019-02-09",
+          "invAmt": 1500,
+          "CustId": 1,
+          "Orders": [
+            { 
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "./images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "./images/ProdId2.jpg"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "invNum": 101,
+          "invDate": "2019-02-15",
+          "invAmt": 4500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+              },
+              "Quantity": 2
+            },
+            {
+              "Product": {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+              },
+              "Quantity": 2
+            }
+            
+            
+          ]
+        },
+        {
+          "invNum": 102,
+          "invDate": "2019-02-19",
+          "invAmt": 2000,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,               
+                "ImgPath": "../images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 5 ,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+              },
+              "Quantity": 1
+            }
+            
+          ]
+        }
+      ]
+    },
+    {
+      "CustomerId": 2,
+      "CustomerName": "Harpal Singh Maan",
+      "CustLat": 43.470619, 
+      "CustyLng": -79.694169,
+      "CustAddress": "32 Erin Street, Oakville, ON",
+      "CustContact": "Phone",
+      "CustPhone": "(416)-555-1111",
+      "CustEmail": "harpal@icloude.com",
+      "Invoices": [
+        {
+          "invNum": 103,
+          "invDate": "2019-02-19",
+          "invAmt": 2000,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,               
+                "ImgPath": "../images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 5,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+              },
+              "Quantity": 1
+            }
+            
+          ]
+        },
+        {
+          "invNum": 104,
+          "invDate": "2019-02-09",
+          "invAmt": 1500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "./images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "./images/ProdId2.jpg"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "invNum": 105,
+          "invDate": "2019-02-15",
+          "invAmt": 4500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+              },
+              "Quantity": 2
+            },
+            {
+              "Product": {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+              },
+              "Quantity": 2
+            }
+            
+            
+          ]
+        }
+      ]
+    },
+    {
+      "CustomerId": 3,
+      "CustomerName": "Jay Patel",
+      "CustLat": 43.448182, 
+      "CustLng": -79.757654,
+      "CustAddress": "Little Caesars Pizza, Third Line, Oakville, ON",
+      "CustContact": "Phone",
+      "CustPhone": "(416)-555-1122",
+      "CustEmail": "jay@gmail.com",
+      "Invoices": [
+        {
+          "invNum": 106,
+          "invDate": "2019-02-15",
+          "invAmt": 4500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+              },
+              "Quantity": 2
+            },
+            {
+              "Product": {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+              },
+              "Quantity": 2
+            }
+            
+            
+          ]
+        },
+        {
+          "invNum": 107,
+          "invDate": "2019-02-19",
+          "invAmt": 2000,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,               
+                "ImgPath": "../images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+              },
+              "Quantity": 1
+            }
+            
+          ]
+        },
+        {
+          "invNum": 108,
+          "invDate": "2019-02-09",
+          "invAmt": 1500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "./images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "./images/ProdId2.jpg"
+              },
+              "Quantity": 1
+            }
+          ]
+          
+        }
+      ]
+    },
+    {
+      "CustomerId": 4,
+      "CustomerName": "Deval Shah",
+      "CustLat": 43.480319, 
+      "CustLng": -79.655276,
+      "CustAddress": "511 Maple Grove Dr #13, Oakville, ON L6J 6X8",
+      "CustContact": "Home",
+      "CustPhone": "(416)-555-3322",
+      "CustEmail": "deval@yahoo.com",
+      "Invoices": [
+        {
+          "invNum": 109,
+          "invDate": "2019-02-09",
+          "invAmt": 1500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "./images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "./images/ProdId2.jpg"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "invNum": 110,
+          "invDate": "2019-02-15",
+          "invAmt": 4500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+              },
+              "Quantity": 2
+            },
+            {
+              "Product": {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+              },
+              "Quantity": 2
+            }
+            
+            
+          ]
+        },
+        {
+          "invNum": 111,
+          "invDate": "2019-02-19",
+          "invAmt": 2000,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,               
+                "ImgPath": "../images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 5,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+              },
+              "Quantity": 1
+            }
+            
+          ]
+        }
+      ]
+    },
+    {
+      "CustomerId": 5,
+      "CustomerName": "Yash Parekh",
+      "CustLat": 43.439450, 
+      "CustLng": -79.741968,
+      "CustAddress": "1500 Upper Middle Rd W, Oakville, ON L6M 3G3",
+      "CustContact": "Home",
+      "CustPhone": "(905)-555-7777",
+      "CustEmail": "yash@yahoo.com",
+      "Invoices": [
+        {
+          "invNum": 112,
+          "invDate": "2019-02-19",
+          "invAmt": 2000,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,               
+                "ImgPath": "../images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 5,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+              },
+              "Quantity": 1
+            }
+            
+          ]
+        },
+        {
+          "invNum": 113,
+          "invDate": "2019-02-09",
+          "invAmt": 1500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "./images/ProdId1.jpg"
+              },
+              "Quantity": 1
+            },
+            {
+              "Product": {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "./images/ProdId2.jpg"
+              },
+              "Quantity": 1
+            }
+          ]
+        },
+        {
+          "invNum": 114,
+          "invDate": "2019-02-15",
+          "invAmt": 4500,
+          "CustId": 1,
+          "Orders": [
+            {
+              "Product": {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+              },
+              "Quantity": 2
+            },
+            {
+              "Product": {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+              },
+              "Quantity": 2
+            }
+            
+            
+          ]
+        }
+      ]
+    }
+  ]
+}

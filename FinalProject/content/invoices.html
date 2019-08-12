@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SellMore Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="../css/jquery.mobile.css" />
+  <script src="../css/jquery.js"></script>
+  <script src="../css/jquery.mobile.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $.getJSON("../Json/Customer.json", function (data) {
+        $.each(data.Customers, function (custKey, Customers) {
+          
+   
+        $.each(Customers.Invoices, function (invKey, invoice) {
+            $("#invoiceInfo").find('tbody')
+              .append($("<tr>")
+                
+                .append($("<td>").text(invoice.invNum))
+                .append($("<td>").text(invoice.invDate))
+                .append($("<td>").text("$" + invoice.invAmt))
+				.append($("<td>").addClass("ui-btn ui-icon-arrow-r ui-btn-icon-right").text(Customers.CustomerName)
+				.on("click", function () {
+                      $("#compName").html(Customers.CustomerName);
+                      $("#invNum").html(invoice.invNum);
+                      $("#invDate").html(invoice.invDate);
+                      $("#invAmt").html(invoice.invAmt);
+					  $("#invProducts").html("");
+                      $("#invLines").empty();
+                      $.each(invoice.Orders, function (lineKey, line) {
+                        $("#invLines").append($("<li>").html("<strong>ProdID " + line.Product.ProdId + line.Product.ProdDesc +" (Qty: " +line.Quantity + ")"))
+                      })
+                    }))
+                
+              );
+
+
+          });
+        });
+      }).error(function (data) {
+        console.log("Error retrieving customer.JSON");
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <section id="home" data-role="page">
+    <header data-role="header">
+      <h1>SellMore  Ltd.</h1>
+      <nav data-role="navbar" data-iconpos="bottom">
+        <ul>
+          <li align="center"><a href="./SellMore Inc.html" rel="external" class="ui-btn">Home</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div class="ui-content">
+      <h3>Invoices</h3>
+      <table id="invoiceInfo" data-role="table" class="ui-responsive table-stroke">
+        <thead>
+          <tr>
+            <th data-priority="2">Invoice Amount</th>
+            <th data-priority="2">Invoice Number</th>
+            <th data-priority="2">Invoice Date</th>
+			<th data-priority="1">Customer Name</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+	  
+	  
+	  
+        <h3>Invoice Details</h3>
+		<table id="customerdetails" data-role="table" class="ui-responsive table-stroke">
+	  <thead>
+	  <tr>
+		<th>CompanyName</th>
+		<th>Invoice No.</th>
+		<th>Invoice Date.</th>
+		<th>Invoice Amt.</th>
+		<th>Invoice Product</th>
+		
+	  </tr>
+	  <tr>
+		<td id="compName"></td>
+		<td id="invNum"></td>
+		<td id="invDate"></td>
+		<td id="invAmt"></td>
+		<td id="invLines"></td>
+		
+	  </tr>
+        </thead>
+		</table>
+    </div>
+    <div data-role="footer">
+      <h1>SellMore Ltd.</h1>
+	  	  <h3>Vrushank Patel  991504124,     Jay Patel 991504654,      Deval Shah 991504653,     Hasratdeep Kaur Aulakh 991504847 </h3>
+    </div>
+  </section>
+
+</body>
+
+</html>

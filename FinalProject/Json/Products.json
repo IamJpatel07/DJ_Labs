@@ -1,0 +1,35 @@
+{
+  "products": [
+        {
+                "ProdId": 1,
+                "ProdDesc": "Sony xz3   6GB  128GB Storage   Triple Camera",
+                "ProdAmt": 1100,                
+                "ImgPath": "../images/ProdId1.jpg"
+        },
+        {
+                "ProdId": 2,
+                "ProdDesc": "Lenovo Z6 Tablet 4GB  256GB Storage  Single Camera",
+                "ProdAmt": 400, 
+                "ImgPath": "../images/ProdId2.jpg"
+        },
+        {
+                "ProdId": 3,
+                "ProdDesc": "IphoneXS MAX  A11chip Dual Camera",
+                "ProdAmt": 1200,
+                "ImgPath": "../images/ProdId3.jpg"
+        },
+        {
+                "ProdId": 4,
+                "ProdDesc": "IphoneXS A11chip  Dual Camera",
+                "ProdAmt": 1000,
+                "ImgPath": "../images/ProdId4.jpg"
+        },
+        {
+                "ProdId": 5,
+                "ProdDesc": "Iphone XR  A11chip Single Camera",
+                "ProdAmt": 900,
+                "ImgPath": "../images/ProdId5.jpg"
+        }
+    
+  ]
+}
